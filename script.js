@@ -2,6 +2,8 @@
 
 $(function () {
   // currentHour is compared to timeBlock
+  // the declared var currentHour needs to be declared
+  // before being used everywhere else in the code.
   var currentHour = parseInt(dayjs().hour());
   
 
